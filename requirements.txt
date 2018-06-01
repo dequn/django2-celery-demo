@@ -1,0 +1,5 @@
+Django==2.0.5
+celery==4.1.1
+redis==2.10.6
+django-celery-results==1.0.1
+django-celery-beat==1.1.1
