@@ -3,7 +3,7 @@ Celery integration project for Django2 demo.
 
 ## Requirements
 * Docker & Docker Compose
-## HOW TO RUN
+## How to run
 ```
 git clone https://github.com/dequn/django2-celery-demo.git
 cd django2-celery-demo
@@ -40,4 +40,5 @@ and worker logs like this(the log time are not matched because I copied them cas
 ```
 Two files `output.txt` and `output2.txt` will be generated in this project root, they also prove the code work and the tasks have been run.
 
+## One Step More
 You can also visit `localhost:8000/admin` to check, add, modify, delete scheduled tasks and task results(Username:root, Password:toorroot).
